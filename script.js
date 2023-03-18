@@ -4,13 +4,13 @@ const addTodoBtn=document.getElementById("addTodoBtn");
 const todoList =document.getElementById("todoList");
 
 addTodoBtn.addEventListener("click", function(){
-	const newTodo=newTodoInput.value.trim();
-	if(newTodo !=="")
+	const newTodo = newTodoInput.value.trim();
+	if(newTodo !== "")
 	{
 		const newTodoItem=document.createElement("li");
 		newTodoItem.textContent=newTodo;
-		todolist.appendChild(newTodoItem);
-		newTodoInput.value="";
+		todoList.appendChild(newTodoItem);
+		newTodoInput.value = "";
 	}
 });
 
