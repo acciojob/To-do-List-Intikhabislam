@@ -3,7 +3,7 @@ const newTodoInput=document.getElementById("newTodoInput");
 const addTodoBtn=document.getElementById("addTodoBtn");
 const todoList =document.getElementById("todoList");
 
-addTodoBtn.addEventListener("click", function()){
+addTodoBtn.addEventListener("click", function(){
 	const newTodo=newTodoInput.value.trim();
 	if(newTodo !=="")
 	{
